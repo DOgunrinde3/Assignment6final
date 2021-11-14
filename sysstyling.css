@@ -1,0 +1,286 @@
+
+/* Login css */
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit].submitted {
+    width: 100%; 
+    background-color: grey;
+  }
+
+  input[type=submit].unsubmitted{
+    width: 100%; 
+    background-color:goldenrod;
+  }
+  
+  input[type=submit]:hover {
+    background-color: goldenrod;
+    
+  }
+
+button{
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+header.login
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    height: 120px;
+    background-color: green;
+    border: 3px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+section.login
+{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0px 2px 5px black;
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    width: fit-content
+}
+h1.login 
+{
+    color: goldenrod;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-right: 60px; 
+    
+}
+
+
+.urlogo
+{
+grid-column-start: 1;
+grid-column-end: 2;
+padding-top: 5px;
+}
+
+#urimage
+{
+    max-width: 400px;
+
+}
+
+.login
+{
+grid-column-start: 2;
+grid-column-end: 3;
+padding-top: 5px;
+}
+
+.loginimg
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+}
+
+
+
+
+/* User css */
+
+header.grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    height: 120px;
+    background-color: green;
+    border: 3px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+
+}
+
+.user
+{
+grid-column-start: 1;
+grid-column-end: 3;
+padding-top: 5px;
+}
+
+.userimg
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    
+}
+
+#userimg
+{
+    width: 200px;
+    float: right;
+    box-shadow: 0px 8px 5px black;
+    border: 3px solid black;
+    padding: 8px;
+    background-color: white;
+    margin-top: 2px;
+   
+    
+}
+
+#username
+{
+    margin-bottom: -10px;
+}
+
+div.grid
+{
+    display: grid;
+    grid-template-columns: 85% auto auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    
+
+}
+
+section.question
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 5px black;
+    
+
+
+}
+
+aside.back
+{
+    
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 50%;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    
+    
+}
+
+h2.pages
+{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: center;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+body.user
+{
+   background-color: white;
+}
+body.quest
+{
+    background-color: linen;
+}
+
+div.row
+{
+    height: auto;
+    min-height: 100px;
+    border:  1px solid black;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+div.row2
+{
+    height: auto;
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+#ans
+{
+    width: 50px;
+    border-radius: 100px;
+}
+
+td.answer
+{
+    border-right: 1px solid black;
+    padding-right: 15px;
+    width: 20px;
+    text-align: center;
+}
+
+td.answering
+{
+    padding-left: 15px;
+    
+}
+
+li
+{
+   margin-top: 50px;
+}
+
+.err_msg
+{
+	color:red; 
+	text-decoration:underline;
+	
+}
